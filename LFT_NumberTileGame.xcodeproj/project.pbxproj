@@ -15,6 +15,7 @@
 		1877C9641EE6EDFF008AB17F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1877C9621EE6EDFF008AB17F /* LaunchScreen.storyboard */; };
 		1877C96F1EE6EDFF008AB17F /* LFT_NumberTileGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1877C96E1EE6EDFF008AB17F /* LFT_NumberTileGameTests.m */; };
 		1877C97A1EE6EDFF008AB17F /* LFT_NumberTileGameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1877C9791EE6EDFF008AB17F /* LFT_NumberTileGameUITests.m */; };
+		1877C98B1EE6EF6E008AB17F /* LFYNumberTileGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1877C98A1EE6EF6E008AB17F /* LFYNumberTileGameViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		1877C9751EE6EDFF008AB17F /* LFT_NumberTileGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LFT_NumberTileGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1877C9791EE6EDFF008AB17F /* LFT_NumberTileGameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFT_NumberTileGameUITests.m; sourceTree = "<group>"; };
 		1877C97B1EE6EDFF008AB17F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1877C9891EE6EF6E008AB17F /* LFYNumberTileGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LFYNumberTileGameViewController.h; path = Views/LFYNumberTileGameViewController.h; sourceTree = "<group>"; };
+		1877C98A1EE6EF6E008AB17F /* LFYNumberTileGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LFYNumberTileGameViewController.m; path = Views/LFYNumberTileGameViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,10 @@
 				1877C95A1EE6EDFF008AB17F /* ViewController.h */,
 				1877C95B1EE6EDFF008AB17F /* ViewController.m */,
 				1877C95D1EE6EDFF008AB17F /* Main.storyboard */,
+				1877C9871EE6EF3D008AB17F /* Models */,
+				1877C9881EE6EF3D008AB17F /* Views */,
+				1877C9891EE6EF6E008AB17F /* LFYNumberTileGameViewController.h */,
+				1877C98A1EE6EF6E008AB17F /* LFYNumberTileGameViewController.m */,
 				1877C9601EE6EDFF008AB17F /* Assets.xcassets */,
 				1877C9621EE6EDFF008AB17F /* LaunchScreen.storyboard */,
 				1877C9651EE6EDFF008AB17F /* Info.plist */,
@@ -138,6 +145,20 @@
 				1877C97B1EE6EDFF008AB17F /* Info.plist */,
 			);
 			path = LFT_NumberTileGameUITests;
+			sourceTree = "<group>";
+		};
+		1877C9871EE6EF3D008AB17F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1877C9881EE6EF3D008AB17F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,6 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1877C95C1EE6EDFF008AB17F /* ViewController.m in Sources */,
+				1877C98B1EE6EF6E008AB17F /* LFYNumberTileGameViewController.m in Sources */,
 				1877C9591EE6EDFF008AB17F /* AppDelegate.m in Sources */,
 				1877C9561EE6EDFF008AB17F /* main.m in Sources */,
 			);

@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "LFYNumberTileGameViewController.h"
 
 @interface ViewController ()
 
@@ -14,15 +15,9 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)PayGameButtonTapped:(id)sender {
+    LFYNumberTileGameViewController *vc = [LFYNumberTileGameViewController new];
+    [self presentViewController:vc animated:YES completion:nil];
 }
 
 
