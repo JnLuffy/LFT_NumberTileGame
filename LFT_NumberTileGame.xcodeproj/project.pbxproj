@@ -16,6 +16,7 @@
 		1877C96F1EE6EDFF008AB17F /* LFT_NumberTileGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1877C96E1EE6EDFF008AB17F /* LFT_NumberTileGameTests.m */; };
 		1877C97A1EE6EDFF008AB17F /* LFT_NumberTileGameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1877C9791EE6EDFF008AB17F /* LFT_NumberTileGameUITests.m */; };
 		1877C98B1EE6EF6E008AB17F /* LFYNumberTileGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1877C98A1EE6EF6E008AB17F /* LFYNumberTileGameViewController.m */; };
+		225C28B41F00937600617954 /* F3HScoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 225C28B31F00937600617954 /* F3HScoreView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		1877C97B1EE6EDFF008AB17F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1877C9891EE6EF6E008AB17F /* LFYNumberTileGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LFYNumberTileGameViewController.h; path = Views/LFYNumberTileGameViewController.h; sourceTree = "<group>"; };
 		1877C98A1EE6EF6E008AB17F /* LFYNumberTileGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LFYNumberTileGameViewController.m; path = Views/LFYNumberTileGameViewController.m; sourceTree = "<group>"; };
+		225C28B21F00937600617954 /* F3HScoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = F3HScoreView.h; sourceTree = "<group>"; };
+		225C28B31F00937600617954 /* F3HScoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = F3HScoreView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +160,8 @@
 		1877C9881EE6EF3D008AB17F /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				225C28B21F00937600617954 /* F3HScoreView.h */,
+				225C28B31F00937600617954 /* F3HScoreView.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -228,6 +233,7 @@
 				TargetAttributes = {
 					1877C9501EE6EDFF008AB17F = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = F5XBCM7QUZ;
 						ProvisioningStyle = Automatic;
 					};
 					1877C9691EE6EDFF008AB17F = {
@@ -294,6 +300,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				225C28B41F00937600617954 /* F3HScoreView.m in Sources */,
 				1877C95C1EE6EDFF008AB17F /* ViewController.m in Sources */,
 				1877C98B1EE6EF6E008AB17F /* LFYNumberTileGameViewController.m in Sources */,
 				1877C9591EE6EDFF008AB17F /* AppDelegate.m in Sources */,
@@ -444,7 +451,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F5XBCM7QUZ;
 				INFOPLIST_FILE = LFT_NumberTileGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cooper.dtag.LFT-NumberTileGame";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -455,7 +464,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F5XBCM7QUZ;
 				INFOPLIST_FILE = LFT_NumberTileGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cooper.dtag.LFT-NumberTileGame";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -527,6 +538,7 @@
 				1877C9801EE6EDFF008AB17F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1877C9811EE6EDFF008AB17F /* Build configuration list for PBXNativeTarget "LFT_NumberTileGameTests" */ = {
 			isa = XCConfigurationList;
@@ -535,6 +547,7 @@
 				1877C9831EE6EDFF008AB17F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1877C9841EE6EDFF008AB17F /* Build configuration list for PBXNativeTarget "LFT_NumberTileGameUITests" */ = {
 			isa = XCConfigurationList;
@@ -543,6 +556,7 @@
 				1877C9861EE6EDFF008AB17F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

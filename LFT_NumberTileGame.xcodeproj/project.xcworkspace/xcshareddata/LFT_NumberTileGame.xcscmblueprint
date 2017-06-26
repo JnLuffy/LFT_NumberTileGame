@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "FDE1F74458BE869C50E718F257609F563AC236AE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "24E54BD0A1DBF911C26F597F5A1BD8F96F379D88" : 9223372036854775807,
+    "FDE1F74458BE869C50E718F257609F563AC236AE" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "8D1C7648-D05F-4F65-A6A8-840081E681F1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "24E54BD0A1DBF911C26F597F5A1BD8F96F379D88" : "",
+    "FDE1F74458BE869C50E718F257609F563AC236AE" : "LFT_NumberTileGame\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "LFT_NumberTileGame",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "LFT_NumberTileGame.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/JnLuffy\/LFY_NavigationBar1_Demo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "24E54BD0A1DBF911C26F597F5A1BD8F96F379D88"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/JnLuffy\/LFT_NumberTileGame.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FDE1F74458BE869C50E718F257609F563AC236AE"
+    }
+  ]
+}

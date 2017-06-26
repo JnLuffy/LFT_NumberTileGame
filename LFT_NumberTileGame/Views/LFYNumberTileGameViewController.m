@@ -37,7 +37,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+//     Do any additional setup after loading the view.
+    [self setupGame];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -47,6 +48,11 @@
 
 #pragma mark - Private Methods
 -(void)setupSwipeControls{
+    
+}
+
+
+-(void)setupGame{
     
 }
 
