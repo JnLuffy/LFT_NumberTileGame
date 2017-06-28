@@ -16,7 +16,8 @@
 @implementation ViewController
 
 - (IBAction)PayGameButtonTapped:(id)sender {
-    LFYNumberTileGameViewController *vc = [LFYNumberTileGameViewController new];
+    LFYNumberTileGameViewController *vc = [LFYNumberTileGameViewController numberTileGameWithDimention:4 winThreshold:2048 backgroudColor:[UIColor whiteColor] scoreModule:YES buttonControls:YES swipeControls:YES];
+    
     [self presentViewController:vc animated:YES completion:nil];
 }
 

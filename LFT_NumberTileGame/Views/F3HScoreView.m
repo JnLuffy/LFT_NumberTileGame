@@ -28,7 +28,7 @@
 
 
 
-+ (instancetype)scoreViewWithCornerRadius:(CGFloat) radius backgroudColor:(UIColor *)color textColor:(UIColor *)textColor textFont:(UIFont *)textFont{
++ (instancetype)scoreViewWithCornerRadius:(CGFloat) radius backgroundColor:(UIColor *)color textColor:(UIColor *)textColor textFont:(UIFont *)textFont{
     
     F3HScoreView *view = [[[self class]alloc] initWithFrame:DEFAULT_FRAME];
     view.score = 0;
