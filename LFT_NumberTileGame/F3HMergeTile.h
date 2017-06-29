@@ -18,7 +18,7 @@ typedef enum{
 
 @interface F3HMergeTile : NSObject
 
-@property (nonatomic) F3HMergeTileMode model;
+@property (nonatomic) F3HMergeTileMode mode;
 @property (nonatomic) NSInteger originalIndexA;
 @property (nonatomic) NSInteger originalIndexB;
 @property (nonatomic) NSInteger value;
